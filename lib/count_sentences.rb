@@ -1,11 +1,10 @@
 require 'pry'
 
 class String
-binding.pry
+
   def sentence?
     if self.end_with?(".")
       return true
-
     end
   end
 
