@@ -13,7 +13,6 @@ class String
   def question?
     if self.end_with?("?")
       return true
-      binding.pry
     else
       return false
     end
